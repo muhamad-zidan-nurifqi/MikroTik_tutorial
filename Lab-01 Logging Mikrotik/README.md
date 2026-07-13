@@ -5,3 +5,7 @@ hallo disini saya akan membagikan cara login dan meremote Mikrotik RouterOS deng
 Berikut adalah topologi nya:
 <img width="1536" height="1024" alt="ChatGPT Image 12 Jul 2026, 22 52 30" src="https://github.com/user-attachments/assets/f505d774-a441-40e3-a99e-4fbb72dcfcc1" />
 
+### 1. Via Winbox
+
+
+
