@@ -23,7 +23,11 @@ Winbox merupakan aplikasi resmi dari MikroTik yang paling banyak digunakan karen
    * Password: *(kosong)*
 5. Klik tombol **Connect**.
 
+<img width="1920" height="1080" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/b4a6dab3-6c91-4e6d-9908-3877146db301" />
+
 Apabila proses berhasil, maka akan muncul tampilan utama Winbox dan router siap dikonfigurasi.
+
+<img width="1920" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/be9911c3-1833-4bf3-9a24-4434bb4a4327" />
 
 ---
 
@@ -34,6 +38,9 @@ WebFig adalah antarmuka berbasis web yang memungkinkan pengguna mengelola MikroT
 ### Langkah-langkah
 
 1. Buka browser, misalnya Google Chrome atau Microsoft Edge.
+
+<img width="736" height="736" alt="Icône Google Chrome HD⎪Vector illustrator (ai_)" src="https://github.com/user-attachments/assets/8c1a3703-316c-417a-bf29-40058ba54f87" />
+
 2. Pada kolom alamat, masukkan IP default MikroTik:
 
 ```text
@@ -67,6 +74,9 @@ Selain menggunakan tampilan grafis, MikroTik juga dapat diakses melalui **Comman
 ### Langkah-langkah
 
 1. Unduh dan buka aplikasi PuTTY.
+
+<img width="728" height="508" alt="PuTTY Secure Shell Telnet Android PNG" src="https://github.com/user-attachments/assets/57796fa3-4598-408c-a173-0bf05bf7f0e5" />
+
 2. Masukkan alamat IP MikroTik:
 
 ```text
@@ -137,8 +147,6 @@ Dengan memahami berbagai metode akses tersebut, proses konfigurasi dan pengelola
 Demikian panduan mengenai beberapa cara mengakses router MikroTik. Semoga materi ini dapat membantu dalam proses belajar maupun praktik konfigurasi jaringan.
 
 Terima kasih atas perhatiannya.
-
-**Wassalamu'alaikum Wr. Wb.**
 
 
 
