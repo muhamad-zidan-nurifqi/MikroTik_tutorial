@@ -29,6 +29,23 @@ Konfigurasi bawaan Router Mode:
 - Firewall aktif.
 - NAT aktif.
 
-Router akan otomatis memperoleh IP Address dari modem
+Router akan otomatis memperoleh IP Address dari modem apabila modem menyediakan layanan DHCP.
+
+---
+
+## Konfigurasi LAN
+
+Secara default Mikrotik membuat sebuah **Bridge** yang berisi:
+
+- ether2
+- ether3
+- ether4
+- wlan1
+
+IP Address LAN:
+
+```text
+192.168.88.1/24
+```
 
 
