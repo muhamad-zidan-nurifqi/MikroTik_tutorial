@@ -20,5 +20,15 @@ gambar nya nanti
 gambar nya nanti 
 
 ---
+## Router mode 
+
+Konfigurasi bawaan Router Mode:
+
+- ether1 digunakan sebagai WAN.
+- DHCP Client aktif.
+- Firewall aktif.
+- NAT aktif.
+
+Router akan otomatis memperoleh IP Address dari modem
 
 
