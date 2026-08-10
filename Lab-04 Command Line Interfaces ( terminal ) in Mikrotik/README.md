@@ -20,103 +20,103 @@ Terminal MikroTik dapat diakses melalui beberapa metode, antara lain:
 
 Berikut beberapa konfigurasi yang dapat dilakukan melalui CLI:
 
-### A. Mengganti Identitas Router
+##### A. Mengganti Identitas Router
 
 ```bash
 /system identity set name=MikroTik-LAB
 ```
 
-### B. Membuat Password Admin
+##### B. Membuat Password Admin
 
 ```bash
 /password
 ```
 
-### C. Membuat User Baru
+##### C. Membuat User Baru
 
 ```bash
 /user add name=adminlab password=12345 group=full
 ```
 
-### D. Melihat Daftar User
+##### D. Melihat Daftar User
 
 ```bash
 /user print
 ```
 
-### E. Melihat Lisensi
+##### E. Melihat Lisensi
 
 ```bash
 /system license print
 ```
 
-### F. Melihat Interface
+##### F. Melihat Interface
 
 ```bash
 /interface print
 ```
 
-### G. Mengubah Nama Interface
+##### G. Mengubah Nama Interface
 
 ```bash
 /interface set ether1 name=WAN
 ```
 
-### H. Menambahkan IP Address
+##### H. Menambahkan IP Address
 
 ```bash
 /ip address add address=192.168.10.1/24 interface=ether1
 ```
 
-### I. Melihat IP Address
+##### I. Melihat IP Address
 
 ```bash
 /ip address print
 ```
 
-### J. Mengubah IP Address
+##### J. Mengubah IP Address
 
 ```bash
 /ip address set [find address="192.168.10.1/24"] address=192.168.20.1/24
 ```
 
-### K. Menambahkan NAT
+##### K. Menambahkan NAT
 
 ```bash
 /ip firewall nat add chain=srcnat out-interface=ether1 action=masquerade
 ```
 
-### L. Melihat Konfigurasi NAT
+##### L. Melihat Konfigurasi NAT
 
 ```bash
 /ip firewall nat print
 ```
 
-### M. Menambahkan Gateway
+##### M. Menambahkan Gateway
 
 ```bash
 /ip route add gateway=192.168.10.254
 ```
 
-### N. Melihat Routing
+##### N. Melihat Routing
 
 ```bash
 /ip route print
 ```
 
-### O. Mengatur DNS
+##### O. Mengatur DNS
 
 ```bash
 /ip dns set servers=8.8.8.8
 ```
 
-### P. Melihat DNS
+##### P. Melihat DNS
 
 ```bash
 /ip dns print
 ```
 
-### Q. Melakukan Ping
+##### Q. Melakukan Ping
 
 ```bash
 /ping 8.8.8.8
@@ -126,7 +126,7 @@ Berikut beberapa konfigurasi yang dapat dilakukan melalui CLI:
 
 MikroTik menyediakan fitur bantuan untuk mempermudah pengguna ketika lupa sintaks atau ingin mengetahui perintah yang tersedia.
 
-### A. Menggunakan TAB
+##### A. Menggunakan TAB
 
 Tekan **TAB dua kali** untuk menampilkan pilihan perintah yang tersedia.
 
@@ -134,7 +134,7 @@ Tekan **TAB dua kali** untuk menampilkan pilihan perintah yang tersedia.
 /ip address [TAB][TAB]
 ```
 
-### B. Menggunakan Tanda Tanya (?)
+##### B. Menggunakan Tanda Tanya (?)
 
 Tanda **?** dapat digunakan untuk melihat perintah beserta pilihan yang tersedia pada menu tertentu.
 
@@ -142,7 +142,7 @@ Tanda **?** dapat digunakan untuk melihat perintah beserta pilihan yang tersedia
 /ip address ?
 ```
 
-### C. Menyingkat Perintah
+##### C. Menyingkat Perintah
 
 Beberapa perintah dapat ditulis secara singkat selama penulisan tersebut tidak menimbulkan kerancuan.
 
@@ -158,7 +158,7 @@ dapat digunakan untuk mengarah ke perintah:
 /ip address print
 ```
 
-### D. Kembali ke Menu Sebelumnya
+##### D. Kembali ke Menu Sebelumnya
 
 Gunakan perintah berikut untuk kembali satu tingkat ke menu sebelumnya:
 
