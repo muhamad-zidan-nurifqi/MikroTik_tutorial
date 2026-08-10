@@ -22,7 +22,7 @@ Jika konfigurasi bawaan tersebut ingin dihapus dan MikroTik ingin dikembalikan k
 
 **Remove Configuration**
 
-<img width="1091" height="812" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/1def343c-cef2-4b7a-906c-c9391ec84855" />
+<img width="545,5" height="406" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/1def343c-cef2-4b7a-906c-c9391ec84855" />
 
 
 Jika MikroTik sebelumnya sudah memiliki konfigurasi dan ingin dikembalikan ke kondisi kosong, proses Reset Configuration dapat dilakukan dengan memilih:
@@ -46,7 +46,7 @@ MikroTik tidak memiliki IP Address bawaan sehingga alamat yang terlihat adalah:
 
 IP Address = 0.0.0.0
 
-<img width="1061" height="406" alt="Screenshot (23)" src="https://github.com/user-attachments/assets/b488077f-5f6b-4b58-95bc-7892670cb3aa" />
+<img width="530,5" height="203" alt="Screenshot (23)" src="https://github.com/user-attachments/assets/b488077f-5f6b-4b58-95bc-7892670cb3aa" />
 
 Walaupun tidak memiliki IP Address, MikroTik masih dapat diakses menggunakan Winbox melalui port Ethernet.
 
@@ -55,7 +55,7 @@ Walaupun tidak memiliki IP Address, MikroTik masih dapat diakses menggunakan Win
 Pada Blank Configuration, interface wireless:
 
 
-<img width="1732" height="709" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/5f777fc2-b3a6-4277-8a67-82f33f4d1036" />
+<img width="866" height="354,5" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/5f777fc2-b3a6-4277-8a67-82f33f4d1036" />
 
 wlan1
 
@@ -69,7 +69,7 @@ Pada menu:
 
 IP → Firewall → Filter Rules
 
-<img width="801" height="444" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/e7c05005-d12d-429b-93cc-5b7390e7f7e0" />
+<img width="400,5" height="222" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/e7c05005-d12d-429b-93cc-5b7390e7f7e0" />
 
 tidak terdapat rule Firewall yang telah dikonfigurasi.
 
