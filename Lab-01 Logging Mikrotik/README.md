@@ -28,7 +28,7 @@ Winbox merupakan aplikasi resmi dari MikroTik yang paling banyak digunakan karen
 
 Apabila proses berhasil, maka akan muncul tampilan utama Winbox dan router siap dikonfigurasi.
 
-<img width="860" height="540" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/be9911c3-1833-4bf3-9a24-4434bb4a4327" />
+<img width="560" height="240" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/be9911c3-1833-4bf3-9a24-4434bb4a4327" />
 
 ---
 
