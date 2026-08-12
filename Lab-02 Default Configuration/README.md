@@ -1,6 +1,7 @@
-# LAB 2 — DEFAULT CONFIGURATION MIKROTIK
+# Lab2. Default Configuration 
 
- Dokumentasi Praktikum MikroTik RouterOS  
+<img width="1536" height="1024" alt="ChatGPT Image 12 Jul 2026, 22 52 30" src="https://github.com/user-attachments/assets/4d9a7a29-1e2c-49d2-8517-8d4502db1222" />
+
  
 ---
 
@@ -27,17 +28,15 @@ Konfigurasi ini dibuat agar MikroTik dapat digunakan dengan lebih mudah tanpa ha
 
 Pada konfigurasi default, MikroTik telah memiliki beberapa pengaturan dasar seperti:
 
-```text
-WAN
-LAN
-Wireless
-DHCP Client
-DHCP Server
-DNS
-Firewall
-NAT
-IP Address
-```
+- WAN
+- LAN
+- Wireless
+- DHCP Client
+- DHCP Server
+- DNS
+- Firewall
+- NAT
+- IP Address
 
 # C. Akses Awal MikroTik
 
@@ -46,6 +45,9 @@ Pada konfigurasi default, ether1 digunakan sebagai WAN Port.
 Port tersebut telah mendapatkan perlindungan dari Firewall. Pada bagian:
 
 ```IP → Firewall → Filter Rules```
+
+<img width="750" height="477" alt="Screenshot 2026-08-12 202716" src="https://github.com/user-attachments/assets/06e07980-7008-4442-bd20-0caa4b800470" />
+
 
 terdapat aturan yang melakukan Drop terhadap input dari ether1.
 
@@ -57,6 +59,9 @@ ether2
 ether3
 ether4
 
+<img width="1536" height="1024" alt="ChatGPT Image 9 Agu 2026, 19 21 36" src="https://github.com/user-attachments/assets/02c28324-bf04-47de-a63e-a18d2858172c" />
+
+
 ---
 
 # D. Akses MikroTik Menggunakan Winbox
@@ -67,13 +72,21 @@ Langkah akses MikroTik menggunakan Winbox:
 
 Hubungkan komputer dengan MikroTik melalui port LAN:
 
+<img width="1536" height="1024" alt="ChatGPT Image 9 Agu 2026, 19 21 36" src="https://github.com/user-attachments/assets/d1f638df-3929-4a30-8878-4ebbd73bc0b8" />
+
 2. Buka Winbox
+
+
+
 
 Jalankan aplikasi Winbox pada komputer.
 
 3. Cari MikroTik
 
 Pada bagian Neighbors, cari perangkat MikroTik yang terhubung.
+
+<img width="1920" height="396" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/b256e1c9-793a-4c76-8611-9e740f570510" />
+
 
 4. Pilih MikroTik
 
@@ -87,6 +100,9 @@ Masukkan username dan password sesuai konfigurasi perangkat.
 
 Setelah berhasil masuk, akan muncul informasi mengenai konfigurasi default MikroTik.
 
+<img width="661" height="494" alt="Screenshot (28)" src="https://github.com/user-attachments/assets/19f7bee5-caa1-42f3-8959-13cba2886ff2" />
+
+
 Tekan:
 
 OK
@@ -99,13 +115,13 @@ untuk melanjutkan.
 
 Pada Router Mode, terdapat beberapa konfigurasi bawaan MikroTik.
 
-Konfigurasi	Status / Nilai
-Port WAN	ether1
-DHCP Client	Enabled
-Firewall	Enabled
-Wireless	Bagian dari LAN Bridge
-IP LAN	192.168.88.1/24
-IP Address LAN Default
-192.168.88.1/24
+- Konfigurasi	Status / Nilai
+- Port WAN	ether1
+- DHCP Client	Enabled
+- Firewall	Enabled
+- Wireless	Bagian dari LAN Bridge
+- IP LAN	192.168.88.1/24
+- IP Address LAN Default
+- 192.168.88.1/24
 
 IP tersebut merupakan IP Address default yang digunakan pada jaringan LAN MikroTik.
