@@ -10,6 +10,9 @@ Pada kondisi Blank Configuration, MikroTik tidak memiliki IP Address bawaan sehi
 0.0.0.0
 ```
 
+<img width="1020" height="357" alt="Screenshot 2026-08-11 171326" src="https://github.com/user-attachments/assets/9750e018-d0f7-478a-9f5a-3395c1bdd584" />
+
+
 Berbeda dengan Default Configuration yang sudah memiliki beberapa pengaturan dasar, Blank Configuration memberikan kebebasan kepada pengguna untuk menentukan konfigurasi MikroTik sesuai dengan kebutuhan jaringan.
 
 ---
